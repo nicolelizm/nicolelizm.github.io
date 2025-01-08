@@ -15,7 +15,7 @@ p {
   margin: 2 em;
 }
 
-@keyframes fly-in {
-  from {text-align: left;}
-  to {text-align: center;}
+@-webkit-keyframes fly-in {
+  0% {text-align: left;}
+  100% {text-align: center;}
 }

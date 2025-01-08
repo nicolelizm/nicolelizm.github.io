@@ -8,14 +8,22 @@ h1 {
   animation-name: fly-in;
   animation-duration: 4s;
   animation-delay: 2s;
+  animation-timing-function: ease-out;
+  
 }
 
 p {
   font-family: helvetica, arial, sans-serif;
   margin: 2 px;
+  animation: fade-in 3s;
 }
 
 @keyframes fly-in {
-  0% {text-align: left;}
-  100% {text-align: center;}
+  0% {transform: translateX(-200%);}
+  100% {transform: translateX(0);}
+}
+
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }

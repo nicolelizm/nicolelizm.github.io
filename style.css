@@ -6,16 +6,16 @@ h1 {
   font-style: italic;
   color: #186158;
   animation-name: fly-in;
-  animaion-duration: 4s;
+  animation-duration: 4s;
   animation-delay: 2s;
 }
 
 p {
   font-family: helvetica, arial, sans-serif;
-  margin: 2 em;
+  margin: 2 px;
 }
 
-@-webkit-keyframes fly-in {
+@keyframes fly-in {
   0% {text-align: left;}
   100% {text-align: center;}
 }

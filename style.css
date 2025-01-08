@@ -5,6 +5,7 @@ body {
 h1 {
   font-style: italic;
   color: #186158;
+  text-align: center;
   animation-name: fly-in;
   animation-duration: 4s;
   animation-delay: 2s;
@@ -15,11 +16,12 @@ h1 {
 p {
   font-family: helvetica, arial, sans-serif;
   margin: 2 px;
-  animation: fade-in 3s;
+  animation: fade-in 3s 2s;
+  text-align: left;
 }
 
 @keyframes fly-in {
-  0% {transform: translateX(-200%);}
+  0% {transform: translateX(-100vw);}
   100% {transform: translateX(0);}
 }
 

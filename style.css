@@ -4,6 +4,7 @@ body {
 
 h1 {
   font-style: italic;
+  font-size: 2.5rem;
   color: #186158;
   text-align: center;
   animation-name: fly-in;
@@ -14,7 +15,9 @@ h1 {
 }
 
 p {
-  font-family: helvetica, arial, sans-serif;
+  font-family: verdana, arial, sans-serif;
+  font-size: 1.2rem;
+  color: #134d46;
   margin: 2 px;
   animation: fade-in 3s 2s;
   text-align: left;

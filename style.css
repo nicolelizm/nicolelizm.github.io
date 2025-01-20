@@ -1,12 +1,15 @@
 body {
-  background-color: #a2bfbc;
+  background-color: #1A3834;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 h1 {
+  font-family: georgia, serif;
   font-style: italic;
-  font-size: 2.5rem;
-  color: #186158;
-  text-align: center;
+  font-size: 4.9rem;
+  color: #C5A9C6;
+  text-align: left;
   animation-name: fly-in;
   animation-duration: 4s;
   animation-delay: 2s;
@@ -14,18 +17,35 @@ h1 {
   
 }
 
-p {
-  font-family: verdana, arial, sans-serif;
-  font-size: 1.2rem;
-  color: #134d46;
-  margin: 2 px;
+h2 {
+  font-family: georgia, serif;
+  font-style: italic;
+  font-size: 2.5rem;
+  color: #C2E0DE;
   animation: fade-in 3s 2s;
   text-align: left;
 }
 
+p {
+  font-family: verdana, arial, sans-serif;
+  font-size: 1.2rem;
+  color: #C2E0DE;
+  padding: 10px;
+  animation: fade-in 3s 2s;
+  text-align: left;
+}
+
+img {
+  float: right;
+  border-style: solid;
+  border-width: 4vw;
+  border-color: #C5A9C6;
+  margin: 10px;
+}
+
 @keyframes fly-in {
   0% {transform: translateX(-100vw);}
-  100% {transform: translateX(-50vw);}
+  100% {transform: translateX(0);}
 }
 
 @keyframes fade-in {

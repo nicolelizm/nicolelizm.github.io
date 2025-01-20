@@ -25,7 +25,7 @@ p {
 
 @keyframes fly-in {
   0% {transform: translateX(-100vw);}
-  100% {transform: translateX(0);}
+  100% {transform: translateX(-50vw);}
 }
 
 @keyframes fade-in {
